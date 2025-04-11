@@ -120,3 +120,19 @@ EmpathAI is designed to create a truly empathetic conversational experience. The
    ```bash
    git clone https://github.com/tooba29/EmpathAI.git
    cd EmpathAI
+2. **Configure Environment Variables:**
+   ```bash
+   export HF_TOKEN='your_huggingface_api_token'
+   ```
+   if you're using a .env file (with a package like python-dotenv), create it in the project root and add
+   ```bash
+   HF_TOKEN=your_huggingface_api_token
+   ```
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the Application:**
+   ```bash
+   streamlit run app.py
+   ```
