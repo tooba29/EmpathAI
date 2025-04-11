@@ -118,5 +118,5 @@ EmpathAI is designed to create a truly empathetic conversational experience. The
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/tooba29/EmpathAI.git
    cd EmpathAI
